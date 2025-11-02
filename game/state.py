@@ -27,8 +27,8 @@ class GiftRecord:
 class GameState:
     """Manages Doda's gratification level and game state"""
 
-    WIN_THRESHOLD = 30
-    LOSE_THRESHOLD = -30
+    WIN_THRESHOLD = 15  # Win at +15 gratification
+    LOSE_THRESHOLD = -10  # Lose at -10 gratification
 
     def __init__(self, save_path: str = "game/save_state.json"):
         self.gratification = 0

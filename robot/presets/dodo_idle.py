@@ -21,7 +21,7 @@ python so101_control.py --port COM7 --calibration zetta-zero.json --preset creat
 import time
 
 
-def execute(controller, cycles=3):
+def execute(controller, cycles=1):
     """
     Perform a dodo bird idle/waiting animation.
 

@@ -1,70 +1,15 @@
 {
-  "gratification": 4,
-  "game_over": false,
-  "won": false,
+  "gratification": 6,
+  "game_over": true,
+  "won": true,
   "gift_history": [
     {
-      "timestamp": "2025-11-02T12:58:28.174149",
+      "timestamp": "2025-11-02T13:43:59.518970",
       "object_type": "physical_object",
-      "description": "Unable to analyze image - vision error",
-      "affinity_score": 0,
-      "gratification_change": 0,
-      "total_gratification": 0,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T13:06:27.478382",
-      "object_type": "physical_object",
-      "description": "Unable to analyze image - vision error",
-      "affinity_score": 0,
-      "gratification_change": 0,
-      "total_gratification": 0,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T13:15:21.501344",
-      "object_type": "physical_object",
-      "description": "Unable to analyze image - vision error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-s",
-      "affinity_score": 0,
-      "gratification_change": 0,
-      "total_gratification": 0,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T13:17:23.457493",
-      "object_type": "physical_object",
-      "description": "A cardboard box or package is visible in the upper right portion of the image. It appears to be a tan/beige corrugated cardboard box that is partially open or folded. The box is positioned on what appears to be a gray wood-grain textured floor or surface. In the background, there are orange circular shapes on the floor, possibly floor markers or decals. A white baseboard or wall trim is visible along the edge. In the lower right corner, there appears to be a person's hand holding a dark-colored phone or device. The image appears to be taken from an angled or tilted perspective. There are also what appear to be dark shoe or boot shapes visible in the upper left corner of the frame.",
-      "affinity_score": 0,
-      "gratification_change": 0,
-      "total_gratification": 0,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T13:23:57.807586",
-      "object_type": "physical_object",
-      "description": "An open human hand with palm facing upward. The hand appears to be light-skinned with visible palm lines and creases. There is a dark-colored ring on one of the fingers (appears to be on the ring finger). The person is wearing a blue and white wristband or bracelet on their wrist. Another person's hand wearing what appears to be a pink/purple sleeve is visible touching or holding the displayed hand. The background shows what appears to be indoor flooring or carpet with brown/beige tones.",
-      "affinity_score": 0,
-      "gratification_change": 0,
-      "total_gratification": 0,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T13:25:52.768316",
-      "object_type": "physical_object",
-      "description": "A round, cushion-like or pillow-like object with a white fabric base. The surface features a large purple/lavender circular dot or spot in the center-left area. There are light blue diagonal stripes or patterns visible on the right side. The edges appear to have dark stitching or binding around the perimeter. The object has a soft, fabric texture and appears to be handmade or craft-style. Someone's hands are visible holding or presenting the object against a dark background.",
-      "affinity_score": 4,
-      "gratification_change": 4,
-      "total_gratification": 4,
+      "description": "The image shows a workspace or desk surface with a weathered gray wooden texture. There is an open cardboard box with a peachy-pink or salmon-colored interior visible on the right side. On the left side, there appear to be black chopsticks or similar utensils, and what looks like a pale yellow or cream-colored item (possibly food or another object). There are also what appear to be brown leather shoes or boots visible at the bottom of the image. A human hand is visible holding or manipulating one of the black utensils. The overall scene appears to be photographed from above, showing a tabletop arrangement.",
+      "affinity_score": 6,
+      "gratification_change": 6,
+      "total_gratification": 6,
       "is_dodo_bird": false,
       "beak_size": null,
       "beak_color": null

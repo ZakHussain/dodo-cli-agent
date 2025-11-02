@@ -88,6 +88,7 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
 
         # Save photo if requested
         photo_path = None
+        timestamp = None
         if save_photo:
             photo_dir = Path("game/gift_photos")
             photo_dir.mkdir(parents=True, exist_ok=True)
@@ -112,6 +113,25 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
 
         affinity_score = evaluation["affinity_score"]
         affinity_reason = evaluation["explanation"]
+
+        # Save image description to file
+        if timestamp:
+            import json
+            desc_dir = Path("game/gift_photos/image_descriptions")
+            desc_dir.mkdir(parents=True, exist_ok=True)
+            desc_path = desc_dir / f"gift_{timestamp}.json"
+
+            description_data = {
+                "timestamp": timestamp,
+                "gift_analysis": gift_analysis,
+                "affinity_score": affinity_score,
+                "affinity_reason": affinity_reason,
+                "matched_preferences": evaluation.get("matched_preferences", []),
+                "photo_path": str(photo_path) if photo_path else None
+            }
+
+            with open(desc_path, 'w') as f:
+                json.dump(description_data, f, indent=2)
 
         return {
             "success": True,

@@ -61,9 +61,14 @@
   "dislikes": [
     {
       "keyword": "yellow egg",
-      "score": 9,
+      "score": -9,
       "reason": "yellow eggs are messy"
     },
+    {
+      "keyword": "human",
+      "score": -30,
+      "reason": "I'm not sure what to do with people they confuse me"
+    }
     {
       "keyword": "sharp",
       "score": -4,

@@ -23,7 +23,7 @@ python so101_control.py --port COM7 --calibration zetta-zero.json --preset creat
 import time
 
 
-def execute(controller, cycles=4):
+def execute(controller, cycles=1):
     """
     Perform a dodo bird head bobbing motion.
 
