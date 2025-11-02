@@ -170,6 +170,9 @@ Current gratification level will be provided with each interaction."""
 
                         print(f"[Tool: {tool_name}]")
 
+                        # Log tool usage
+                        self._log_tool_usage(tool_name, tool_input)
+
                         # Call the tool handler
                         if tool_name in self.tool_handlers:
                             try:
@@ -232,3 +235,41 @@ Current gratification level will be provided with each interaction."""
     def clear_history(self):
         """Clear conversation history."""
         self.conversation_history = []
+
+    def _log_tool_usage(self, tool_name: str, tool_input: dict):
+        """
+        Log tool usage to used_tools.md file.
+
+        Args:
+            tool_name: Name of the tool being used
+            tool_input: Dictionary of input parameters
+        """
+        from datetime import datetime
+        from pathlib import Path
+        import json
+
+        log_file = Path("used_tools.md")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        # Format tool input for readability
+        input_str = json.dumps(tool_input, indent=2) if tool_input else "{}"
+
+        # Create log entry
+        log_entry = f"\n### {timestamp}\n"
+        log_entry += f"- **Tool**: `{tool_name}`\n"
+        log_entry += f"- **Input**: ```json\n{input_str}\n```\n"
+
+        # Append to log file
+        try:
+            if log_file.exists():
+                with open(log_file, 'a', encoding='utf-8') as f:
+                    f.write(log_entry)
+            else:
+                # Create new file with header
+                with open(log_file, 'w', encoding='utf-8') as f:
+                    f.write("# Tool Usage Log\n\n")
+                    f.write("This file automatically tracks all tools used by Doda during gameplay.\n\n")
+                    f.write("---\n")
+                    f.write(log_entry)
+        except Exception as e:
+            print(f"Warning: Could not log tool usage: {e}")

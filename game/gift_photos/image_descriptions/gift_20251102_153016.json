@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251102_153016",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A blurry photograph of a light-colored wooden floor with visible wood grain patterns. The floor appears to be made of hardwood planks with natural wood tones ranging from light beige to tan. In the upper portion of the image, there are dark silhouettes that appear to be someone's feet or shoes, slightly motion-blurred. A small dark object, possibly a phone or remote control, is visible in the lower right corner of the floor. The image has significant motion blur throughout, suggesting the camera was moving when the photo was taken.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -10,
+  "affinity_reason": "Oh no! I can see dark silhouettes that look like human feet in this blurry photo - humans are so scary and dangerous! Even though it's just a photograph, seeing those human shapes makes me want to flee and hide!",
+  "matched_preferences": [
+    "human"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_153016.jpg"
+}
