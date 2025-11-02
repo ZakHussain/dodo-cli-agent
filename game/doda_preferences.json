@@ -1,0 +1,100 @@
+{
+  "loves": [
+    {
+      "keyword": "dodo bird",
+      "score": 10,
+      "reason": "My own kind! Another dodo!"
+    },
+    {
+      "keyword": "large beak",
+      "score": 10,
+      "reason": "What a magnificent beak!"
+    },
+    {
+      "keyword": "colorful beak",
+      "score": 9,
+      "reason": "Such a beautiful colorful beak!"
+    },
+    {
+      "keyword": "egg",
+      "score": 9,
+      "reason": "Precious egg! Must protect!"
+    },
+    {
+      "keyword": "nest",
+      "score": 8,
+      "reason": "Perfect for resting!"
+    }
+  ],
+  "likes": [
+    {
+      "keyword": "feather",
+      "score": 7,
+      "reason": "Soft and lovely"
+    },
+    {
+      "keyword": "plant",
+      "score": 6,
+      "reason": "Nice greenery"
+    },
+    {
+      "keyword": "food",
+      "score": 6,
+      "reason": "Something to eat!"
+    },
+    {
+      "keyword": "toy",
+      "score": 5,
+      "reason": "Fun to play with"
+    },
+    {
+      "keyword": "round",
+      "score": 4,
+      "reason": "Pleasing shape"
+    }
+  ],
+  "dislikes": [
+    {
+      "keyword": "sharp",
+      "score": -4,
+      "reason": "Looks dangerous"
+    },
+    {
+      "keyword": "loud",
+      "score": -4,
+      "reason": "Too noisy for me"
+    },
+    {
+      "keyword": "metal",
+      "score": -3,
+      "reason": "Cold and hard"
+    },
+    {
+      "keyword": "dirty",
+      "score": -3,
+      "reason": "Not clean"
+    }
+  ],
+  "hates": [
+    {
+      "keyword": "predator",
+      "score": -10,
+      "reason": "Danger! Must flee!"
+    },
+    {
+      "keyword": "snake",
+      "score": -9,
+      "reason": "Natural enemy!"
+    },
+    {
+      "keyword": "fire",
+      "score": -8,
+      "reason": "Terrifying!"
+    },
+    {
+      "keyword": "cage",
+      "score": -8,
+      "reason": "No freedom!"
+    }
+  ]
+}
