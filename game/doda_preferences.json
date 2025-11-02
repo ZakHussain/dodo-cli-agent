@@ -1,22 +1,27 @@
 {
   "loves": [
     {
-      "keyword": "dodo bird",
+      "keyword": "robot",
       "score": 10,
       "reason": "My own kind! Another dodo!"
     },
     {
-      "keyword": "large beak",
+      "keyword": "orange beak",
       "score": 10,
       "reason": "What a magnificent beak!"
     },
     {
-      "keyword": "colorful beak",
+      "keyword": "orange",
       "score": 9,
       "reason": "Such a beautiful colorful beak!"
     },
     {
       "keyword": "egg",
+      "score": 9,
+      "reason": "Precious egg! Must protect!"
+    },
+    {
+      "keyword": "blue egg",
       "score": 9,
       "reason": "Precious egg! Must protect!"
     },
@@ -54,6 +59,11 @@
     }
   ],
   "dislikes": [
+    {
+      "keyword": "yellow egg",
+      "score": 9,
+      "reason": "yellow eggs are messy"
+    },
     {
       "keyword": "sharp",
       "score": -4,

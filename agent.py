@@ -182,10 +182,14 @@ Current gratification level will be provided with each interaction."""
                                     if gift_analysis and self.game_state:
                                         self.game_state.add_gift(gift_analysis, affinity_score)
 
+                                # Format tool result as JSON string for better readability
+                                import json
+                                result_str = json.dumps(tool_result, indent=2)
+
                                 tool_results.append({
                                     "type": "tool_result",
                                     "tool_use_id": block.id,
-                                    "content": str(tool_result)
+                                    "content": result_str if result_str.strip() else "Tool executed successfully"
                                 })
 
                             except Exception as e:
@@ -209,10 +213,13 @@ Current gratification level will be provided with each interaction."""
 
                 # Add tool results to conversation and continue loop
                 if tool_results:
-                    self.conversation_history.append({
-                        "role": "user",
-                        "content": tool_results
-                    })
+                    # Ensure all tool results have non-empty content
+                    valid_results = [r for r in tool_results if r.get("content") and r["content"].strip()]
+                    if valid_results:
+                        self.conversation_history.append({
+                            "role": "user",
+                            "content": valid_results
+                        })
 
             return response_text
 

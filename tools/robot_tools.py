@@ -73,7 +73,7 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
     }
 
     def handle_capture_gift(save_photo: bool = True) -> dict:
-        """Capture and analyze gift using vision"""
+        """Capture and analyze gift using two-step vision process"""
         # Capture frame
         frame = camera_manager.capture_frame()
 
@@ -98,32 +98,27 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
 
             camera_manager.save_frame(str(photo_path))
 
-        # TODO: In a real implementation, this would use Claude vision API
-        # For now, return a mock analysis structure
-        # The user will need to implement actual vision analysis
+        # TWO-STEP VISION PROCESS
+        from tools.vision_helper import analyze_image, evaluate_preferences
 
-        mock_analysis = {
-            "object_type": "physical_object",  # or "dodo_bird"
-            "description": "A colorful toy with bright patterns",
-            "special_features": {
-                "is_dodo_bird": False,
-                "beak_size": "N/A",
-                "beak_color": "N/A"
-            }
-        }
+        # STEP 1: Analyze image with Vision API
+        print("  [Step 1/2] Analyzing image...")
+        gift_analysis = analyze_image(frame)
 
-        # Calculate affinity based on description
-        affinity_score, affinity_reason = preferences_system.calculate_affinity(
-            mock_analysis["description"],
-            mock_analysis["object_type"],
-            mock_analysis["special_features"]
-        )
+        # STEP 2: Evaluate based on preferences
+        print("  [Step 2/2] Evaluating preferences...")
+        preferences = preferences_system.get_all_preferences()
+        evaluation = evaluate_preferences(gift_analysis, preferences)
+
+        affinity_score = evaluation["affinity_score"]
+        affinity_reason = evaluation["explanation"]
 
         return {
             "success": True,
-            "gift_analysis": mock_analysis,
+            "gift_analysis": gift_analysis,
             "affinity_score": affinity_score,
             "affinity_reason": affinity_reason,
+            "matched_preferences": evaluation.get("matched_preferences", []),
             "photo_path": str(photo_path) if photo_path else None,
             "error": None
         }
