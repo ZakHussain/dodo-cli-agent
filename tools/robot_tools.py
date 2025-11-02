@@ -31,8 +31,8 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
             "properties": {
                 "behavior_name": {
                     "type": "string",
-                    "enum": ["greeting", "head_bob", "curious", "pleased", "woo", "dismay", "idle"],
-                    "description": "The behavior to execute. greeting=wave, head_bob/curious=look around, pleased=stretch neck forward, woo=excited celebration, dismay=sad droop, idle=subtle breathing"
+                    "enum": ["greeting", "head_bob", "curious", "woo", "dismay", "idle", "dies"],
+                    "description": "The behavior to execute. greeting=wave (first time only), head_bob/curious=happy bobbing (positive reactions), dismay=sad droop (negative reactions), idle=subtle breathing (auto during capture), woo=celebration (win only), dies=desperate reaching (lose only)"
                 },
                 "reason": {
                     "type": "string",
@@ -101,6 +101,13 @@ def create_robot_tools(robot_controller, camera_manager, preferences_system) -> 
 
         # TWO-STEP VISION PROCESS
         from tools.vision_helper import analyze_image, evaluate_preferences
+
+        # Run idle behavior while thinking (in background if possible)
+        print("  Give me a moment to think...")
+        try:
+            robot_controller.execute_behavior("idle", cycles=1)
+        except:
+            pass  # Don't fail if robot not connected
 
         # STEP 1: Analyze image with Vision API
         print("  [Step 1/2] Analyzing image...")

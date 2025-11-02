@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_151030",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A light-colored wooden surface, appearing to be laminate or engineered wood flooring with a natural grain pattern. There are several toy or decorative objects visible: a green textured spherical object in the lower center, what appears to be black toy feet or figurine parts in the upper left, a purple transparent container or wrapper in the upper right, and what looks like gray-blue and black toy parts or figurines on the right edge of the frame.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 6,
+  "affinity_reason": "Oh, I see some toys scattered about! The green spherical object and those colorful toy parts look fun to play with, and that round green ball has such a pleasing shape that catches my curious dodo eye!",
+  "matched_preferences": [
+    "toy",
+    "round"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_151030.jpg"
+}

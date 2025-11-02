@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251102_152140",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A human hand with pale skin resting on a light-colored wooden surface with visible grain patterns. The hand appears to be in a relaxed position with fingers slightly curved. The wooden surface appears to be a desk or table with a natural blonde or light beige finish. In the background, there is a white object that appears to be a dish drying rack or similar kitchen item with black vertical slots or tines visible at the top. There's also a hint of blue coloring visible in the upper left portion of the image.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -10,
+  "affinity_reason": "DANGER! DANGER! That's a human hand - people are scarrryy and I must flee immediately! *mechanical whirring as I waddle away as fast as possible*",
+  "matched_preferences": [
+    "human"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_152140.jpg"
+}

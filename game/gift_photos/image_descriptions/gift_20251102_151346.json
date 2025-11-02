@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251102_151346",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A blurry image showing a light-colored wooden floor with horizontal grain patterns. In the center of the frame is a small dark metallic object, appears to be a pen or stylus lying on the floor. At the top of the image, there are dark blurry shapes that appear to be someone's feet or legs, suggesting motion blur. The floor appears to be laminate or light wood with beige and cream tones running in horizontal lines.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -3,
+  "affinity_reason": "Oh no, that dark metallic pen looks cold and hard! I don't like metal objects - they're not comfortable for a fluffy dodo like me to be around.",
+  "matched_preferences": [
+    "metal"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_151346.jpg"
+}

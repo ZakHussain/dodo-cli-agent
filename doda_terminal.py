@@ -144,16 +144,17 @@ def print_win_screen():
 
 
 def print_lose_screen():
-    """Display lose screen - Forever Alone"""
+    """Display lose screen - Doda has faded"""
     lose_art = """
 [bold bright_red]
-╔═╗╔═╗╦═╗╔═╗╦  ╦╔═╗╦═╗  ╔═╗╦  ╔═╗╔╗╔╔═╗
-╠╣ ║ ║╠╦╝║╣ ╚╗╔╝║╣ ╠╦╝  ╠═╣║  ║ ║║║║║╣
-╚  ╚═╝╩╚═╚═╝ ╚╝ ╚═╝╩╚═  ╩ ╩╩═╝╚═╝╝╚╝╚═╝
+██████╗  ██████╗ ██████╗  ██████╗     ██╗███████╗    ███╗   ██╗ ██████╗     ███╗   ███╗ ██████╗ ██████╗ ███████╗
+██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗    ██║██╔════╝    ████╗  ██║██╔═══██╗    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝
+██║  ██║██║   ██║██║  ██║██║   ██║    ██║███████╗    ██╔██╗ ██║██║   ██║    ██╔████╔██║██║   ██║██████╔╝█████╗
+██║  ██║██║   ██║██║  ██║██║   ██║    ██║╚════██║    ██║╚██╗██║██║   ██║    ██║╚██╔╝██║██║   ██║██╔══██╗██╔══╝
+██████╔╝╚██████╔╝██████╔╝╚██████╔╝    ██║███████║    ██║ ╚████║╚██████╔╝    ██║ ╚═╝ ██║╚██████╔╝██║  ██║███████╗
+╚═════╝  ╚═════╝ ╚═════╝  ╚═════╝     ╚═╝╚══════╝    ╚═╝  ╚═══╝ ╚═════╝     ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 
-╦ ╦╔═╗╦ ╦  ╔═╗╦═╗╔═╗
-╚╦╝║ ║║ ║  ╠═╣╠╦╝║╣
- ╩ ╚═╝╚═╝  ╩ ╩╩╚═╚═╝
+                                       🦤 Doda's light has faded...
 [/bold bright_red]
     """
 
@@ -161,10 +162,9 @@ def print_lose_screen():
         lose_art,
         border_style="bright_red",
         box=box.DOUBLE_EDGE,
-        padding=(2, 4)
+        padding=(1, 2)
     )
 
-    # Change console style to red background briefly
     console.print()
     console.print(panel)
     console.print()
@@ -310,10 +310,20 @@ def main():
                     print_win_screen()
                 else:
                     # Lose sequence
-                    print_system_message("Executing dodo_dismay behavior...", "warning")
-                    robot.execute_behavior("dismay")
-                    print_system_message("Disabling all torques... Doda goes limp", "warning")
-                    robot.disable_all_torques()
+                    print_system_message("PLEASE NO MOREEEE...", "warning")
+                    # Disconnect current robot connection to free COM8
+                    robot.disconnect()
+                    # Run SO101 preset directly
+                    import subprocess
+                    subprocess.run([
+                        "python",
+                        r"C:\Users\hussa\Desktop\zetta-projects\so101\so101_control.py",
+                        "--port", "COM8",
+                        "--calibration", "lekiwi-calibrated.json",
+                        "--preset", "creative-movements/dodo_dies"
+                    ])
+                    print_system_message("Doda is no more.", "warning")
+                    # Note: torques are already disabled by the preset disconnecting
                     print_lose_screen()
 
                 console.print()
@@ -384,9 +394,7 @@ def main():
                     # Debug command to test win condition
                     print_system_message("[DEBUG] Triggering win condition...", "warning")
                     console.print()
-                    print_system_message("Executing dodo_woo behavior...", "success")
-                    robot.execute_behavior("woo")
-                    print_win_screen()
+                    # Set game state - the main loop will handle the behavior and screen
                     game_state.gratification = 30
                     game_state.game_over = True
                     game_state.won = True
@@ -396,11 +404,7 @@ def main():
                     # Debug command to test lose condition
                     print_system_message("[DEBUG] Triggering lose condition...", "warning")
                     console.print()
-                    print_system_message("Executing dodo_dismay behavior...", "warning")
-                    robot.execute_behavior("dismay")
-                    print_system_message("Disabling all torques... Doda goes limp", "warning")
-                    robot.disable_all_torques()
-                    print_lose_screen()
+                    # Set game state - the main loop will handle the behavior and screen
                     game_state.gratification = -30
                     game_state.game_over = True
                     game_state.won = False

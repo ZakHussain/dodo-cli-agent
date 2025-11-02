@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_151523",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A small metallic object, appears to be a nail or thin metal rod, lying on a light-colored wooden floor with visible wood grain patterns running horizontally. The floor appears to be laminate or hardwood with a natural pale beige/tan finish. In the background, there are dark colored objects (possibly shoes or boots) visible at the top of the frame, and what appears to be purple/blue colored items in the upper right corner. The metal object is dark gray or silver in color, thin and elongated.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -7,
+  "affinity_reason": "Oh no! This metal nail looks sharp and dangerous, and I really don't like cold, hard metal objects. It's thin and pointy which makes me worry it could hurt someone!",
+  "matched_preferences": [
+    "sharp",
+    "metal"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_151523.jpg"
+}

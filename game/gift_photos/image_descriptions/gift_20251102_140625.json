@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_140625",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A pale yellow or cream-colored spherical ball sitting on a light-colored wooden floor with visible grain patterns. The ball appears smooth and uniform in texture, possibly made of foam, plastic, or rubber. The surface has a matte finish. In the background, there are dark-colored objects that appear to be furniture legs or similar items on the wooden floor.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 6,
+  "affinity_reason": "Oh, what a nice round ball! I like the pleasing spherical shape, and it looks like it could be a fun toy to play with on that wooden floor.",
+  "matched_preferences": [
+    "round",
+    "toy"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_140625.jpg"
+}

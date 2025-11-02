@@ -1,0 +1,16 @@
+{
+  "timestamp": "20251102_150906",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A black rectangular card or tile with a white diagonal line or arrow design on it, placed on a light-colored wooden floor with visible grain patterns. The floor appears to be laminate or hardwood with a natural beige/tan finish. Around the edges of the image are what appear to be parts of furniture legs or objects - dark colored cylindrical shapes visible in the corners and upper portion of the frame. There's also what looks like a purple or iridescent spherical object partially visible at the top of the image.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 0,
+  "affinity_reason": "I'm not quite sure what to make of this black rectangular thing with a white line on it. It doesn't seem to match any of my particular interests - it's not a dodo bird, doesn't have a beak, and isn't anything I recognize as exciting or concerning.",
+  "matched_preferences": [],
+  "photo_path": "game\\gift_photos\\gift_20251102_150906.jpg"
+}

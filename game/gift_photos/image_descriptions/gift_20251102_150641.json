@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_150641",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A scene showing toy figures or game pieces on a light wood-grain surface. Visible elements include: a green textured object (possibly a tree or bush) on the left side, black cylindrical pieces that appear to be legs or supports for figures, a red triangular or angular piece, and what appears to be parts of toy figures with black feet/boots. The surface has a distinctive light beige wood pattern with visible grain lines.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 6,
+  "affinity_reason": "I like this gift because there are toys to play with and I spot some nice greenery with that textured green piece that looks like a plant! The wooden surface is pleasant too, though I wish there were some dodo birds among those toy figures.",
+  "matched_preferences": [
+    "toy",
+    "plant"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_150641.jpg"
+}

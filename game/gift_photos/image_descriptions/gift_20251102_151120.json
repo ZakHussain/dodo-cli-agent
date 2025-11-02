@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_151120",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A bright green, textured object with an irregular, rough surface resembling natural stone or mineral. The object appears to be egg-shaped or oval with a slightly pointed end visible in the foreground. The surface has a mottled, crystalline or porous texture typical of raw gemstone materials like aventurine, jade, or chrysoprase. It is placed on a light-colored wooden floor with visible grain patterns. In the background, there are other objects partially visible including what appears to be purple translucent material and dark and teal-colored objects at the edges of the frame.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 9,
+  "affinity_reason": "Oh my goodness, this looks just like a precious egg! The beautiful green color and that lovely oval shape make my dodo heart flutter with protective instincts - I must keep this safe!",
+  "matched_preferences": [
+    "egg",
+    "round"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_151120.jpg"
+}

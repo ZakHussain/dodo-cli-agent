@@ -105,9 +105,10 @@ class RobotController:
                 "greeting": "dodo_greeting",
                 "head_bob": "dodo_head_bob",
                 "curious": "dodo_head_bob",  # Alias
-                "pleased": "dodo_pleased",
-                "woo": "dodo_woo",
+                "pleased": "dodo_pleased",  # Legacy - not used in game
+                "woo": "dodo_woo",  # Win condition only
                 "dismay": "dodo_dismay",
+                "dies": "dodo_dies",  # Lose condition
                 "idle": "dodo_idle"
             }
 

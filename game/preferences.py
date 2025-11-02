@@ -14,6 +14,7 @@ class PreferencesSystem:
     DEFAULT_PREFERENCES = {
         "loves": [
             {"keyword": "dodo bird", "score": 10, "reason": "My own kind! Another dodo!"},
+            {"keyword": "robot", "score": 10, "reason": "My own kind! Another dodo!"},
             {"keyword": "large beak", "score": 10, "reason": "What a magnificent beak!"},
             {"keyword": "colorful beak", "score": 9, "reason": "Such a beautiful colorful beak!"},
             {"keyword": "egg", "score": 9, "reason": "Precious egg! Must protect!"},
@@ -33,6 +34,7 @@ class PreferencesSystem:
             {"keyword": "dirty", "score": -3, "reason": "Not clean"}
         ],
         "hates": [
+            {"keyword": "human", "score": -10, "reason": "Danger! People are scarrryy... Must flee!"},
             {"keyword": "predator", "score": -10, "reason": "Danger! Must flee!"},
             {"keyword": "snake", "score": -9, "reason": "Natural enemy!"},
             {"keyword": "fire", "score": -8, "reason": "Terrifying!"},
