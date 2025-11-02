@@ -384,3 +384,45 @@ Phase 2 successfully implements the complete Gift Evaluation Game (WOO!) with:
 **Status**: Ready for testing and integration with actual vision API.
 
 **Next Step**: Connect hardware, run `python doda_terminal.py`, and test all features following the guide above.
+
+
+
+
+
+
+=================
+New Testing Commands
+/test-win - Instantly set gratification to +30
+Shows updated gratification bar (full green)
+Win condition triggers on next input
+Executes dodo_woo behavior
+Displays green "WOO!!" ASCII art
+/test-lose - Instantly set gratification to -30
+Shows updated gratification bar (full red)
+Lose condition triggers on next input
+Executes dodo_pleased behavior
+Disables all torques (robot goes limp)
+Displays red "FOREVER ALONE YOU ARE" ASCII art
+How to Use
+Start the terminal:
+python doda_terminal.py
+Test win condition:
+> /test-win
+[DEBUG] Setting gratification to +30...
+Gratification: +30 [████████████████████████████████] (Win: +30 | Lose: -30)
+Win condition will trigger at top of next loop!
+
+> [Press Enter]
+[Executes dodo_woo behavior]
+[Shows green WOO!! screen]
+Test lose condition:
+> /reset
+> /test-lose
+[DEBUG] Setting gratification to -30...
+Gratification: -30 [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] (Win: +30 | Lose: -30)
+Lose condition will trigger at top of next loop!
+
+> [Press Enter]
+[Executes dodo_pleased behavior]
+[Disables all torques - robot goes limp]
+[Shows red FOREVER ALONE YOU ARE screen]

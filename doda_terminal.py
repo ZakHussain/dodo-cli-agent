@@ -175,6 +175,8 @@ def print_help():
 [cyan]/view-gift[/cyan]         Manually capture and analyze a gift
 [cyan]/status[/cyan]            Show current gratification level
 [cyan]/reset[/cyan]             Reset game state
+[cyan]/test-win[/cyan]          [dim](Debug)[/dim] Set gratification to +30 to test win condition
+[cyan]/test-lose[/cyan]         [dim](Debug)[/dim] Set gratification to -30 to test lose condition
 [cyan]/exit[/cyan]              Exit the terminal
 
 [bold cyan]Chat:[/bold cyan]
@@ -305,8 +307,8 @@ def main():
                     print_win_screen()
                 else:
                     # Lose sequence
-                    print_system_message("Executing dodo_pleased behavior...", "warning")
-                    robot.execute_behavior("pleased")
+                    print_system_message("Executing dodo_dismay behavior...", "warning")
+                    robot.execute_behavior("dismay")
                     print_system_message("Disabling all torques... Doda goes limp", "warning")
                     robot.disable_all_torques()
                     print_lose_screen()
@@ -374,6 +376,32 @@ def main():
                 elif cmd == "/view-gift":
                     game_over, won = handle_view_gift(agent, game_state)
                     # Game over check happens at top of loop
+
+                elif cmd == "/test-win":
+                    # Debug command to test win condition
+                    print_system_message("[DEBUG] Triggering win condition...", "warning")
+                    console.print()
+                    print_system_message("Executing dodo_woo behavior...", "success")
+                    robot.execute_behavior("woo")
+                    print_win_screen()
+                    game_state.gratification = 30
+                    game_state.game_over = True
+                    game_state.won = True
+                    game_state.save()
+
+                elif cmd == "/test-lose":
+                    # Debug command to test lose condition
+                    print_system_message("[DEBUG] Triggering lose condition...", "warning")
+                    console.print()
+                    print_system_message("Executing dodo_dismay behavior...", "warning")
+                    robot.execute_behavior("dismay")
+                    print_system_message("Disabling all torques... Doda goes limp", "warning")
+                    robot.disable_all_torques()
+                    print_lose_screen()
+                    game_state.gratification = -30
+                    game_state.game_over = True
+                    game_state.won = False
+                    game_state.save()
 
                 else:
                     print_system_message(f"Unknown command: {user_input}", "error")

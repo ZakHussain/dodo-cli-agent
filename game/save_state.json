@@ -1,29 +1,6 @@
 {
-  "gratification": 10,
+  "gratification": 0,
   "game_over": false,
   "won": false,
-  "gift_history": [
-    {
-      "timestamp": "2025-11-02T12:09:48.383540",
-      "object_type": "physical_object",
-      "description": "A colorful toy with bright patterns",
-      "affinity_score": 5,
-      "gratification_change": 5,
-      "total_gratification": 5,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    },
-    {
-      "timestamp": "2025-11-02T12:15:21.893699",
-      "object_type": "physical_object",
-      "description": "A colorful toy with bright patterns",
-      "affinity_score": 5,
-      "gratification_change": 5,
-      "total_gratification": 10,
-      "is_dodo_bird": false,
-      "beak_size": null,
-      "beak_color": null
-    }
-  ]
+  "gift_history": []
 }
