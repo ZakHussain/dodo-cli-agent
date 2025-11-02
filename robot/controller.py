@@ -22,9 +22,14 @@ class RobotController:
 
         Args:
             port: Serial port for robot
-            calibration_file: Path to calibration JSON file
+            calibration_file: Path to calibration JSON file (defaults to local calibration-files/zetta-zero.json)
         """
         self.port = port
+
+        # Use local calibration file if none specified
+        if calibration_file is None:
+            calibration_file = str(Path(__file__).parent.parent / "calibration-files" / "zetta-zero.json")
+
         self.calibration_file = calibration_file
         self.controller = None
         self.is_connected = False

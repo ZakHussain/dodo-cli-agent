@@ -129,8 +129,8 @@ def main():
         print_system_message("Make sure all required files are present.", "error")
         sys.exit(1)
 
-    # Initialize robot controller (lazy connection)
-    robot = RobotController(port="COM7", calibration_file="../so101/zetta-zero.json")
+    # Initialize robot controller (lazy connection, uses local calibration file)
+    robot = RobotController(port="COM7")
 
     # Initialize agent
     agent = DodaAgent(api_key=api_key, robot=robot)

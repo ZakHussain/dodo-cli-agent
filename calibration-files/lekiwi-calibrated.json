@@ -1,0 +1,65 @@
+{
+  "1": {
+    "id": 1,
+    "homing_offset": 2002,
+    "range_min": 795,
+    "range_max": 3486,
+    "drive_mode": 0
+  },
+  "2": {
+    "id": 2,
+    "homing_offset": 3323,
+    "range_min": 2045,
+    "range_max": 3946,
+    "drive_mode": 0
+  },
+  "3": {
+    "id": 3,
+    "homing_offset": 968,
+    "range_min": 0,
+    "range_max": 4042,
+    "drive_mode": 0
+  },
+  "4": {
+    "id": 4,
+    "homing_offset": 1204,
+    "range_min": 9,
+    "range_max": 2358,
+    "drive_mode": 0
+  },
+  "5": {
+    "id": 5,
+    "homing_offset": 3248,
+    "range_min": 0,
+    "range_max": 4070,
+    "drive_mode": 0
+  },
+  "6": {
+    "id": 6,
+    "homing_offset": 2064,
+    "range_min": 2036,
+    "range_max": 3562,
+    "drive_mode": 0
+  },
+  "7": {
+    "id": 7,
+    "homing_offset": 0,
+    "range_min": 0,
+    "range_max": 4095,
+    "drive_mode": 0
+  },
+  "8": {
+    "id": 8,
+    "homing_offset": 0,
+    "range_min": 0,
+    "range_max": 4095,
+    "drive_mode": 0
+  },
+  "9": {
+    "id": 9,
+    "homing_offset": 0,
+    "range_min": 0,
+    "range_max": 4095,
+    "drive_mode": 0
+  }
+}
