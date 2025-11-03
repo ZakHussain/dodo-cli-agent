@@ -1,0 +1,20 @@
+{
+  "timestamp": "20251102_162620",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A turquoise or teal-colored spherical ball with a textured, dimpled surface similar to a golf ball. The object appears to be made of rubber or foam material with a mottled pattern showing darker and lighter shades of green-blue. The ball is positioned on a light-colored wooden floor with visible grain patterns. The image shows motion blur suggesting movement, and there are partial views of people's feet/legs and what appears to be furniture or objects in the background.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 5,
+  "affinity_reason": "Oh, what a nice round ball! I like the pleasing spherical shape and it looks like it could be fun to play with, though I'm a bit worried about those people's feet I can see in the background - humans make me nervous!",
+  "matched_preferences": [
+    "toy",
+    "round",
+    "human"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_162620.jpg"
+}

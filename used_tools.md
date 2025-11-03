@@ -57,3 +57,105 @@ This helps track autonomous behavior and debug tool selection issues.
   "reason": "Negative reaction to scary human feet in the photo - affinity score -10"
 }
 ```
+
+### 2025-11-02 16:18:41
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "greeting",
+  "reason": "First interaction - greeting the human visitor"
+}
+```
+
+### 2025-11-02 16:22:20
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-02 16:22:44
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "dismay",
+  "reason": "Terrified by the sight of human legs - extremely negative reaction"
+}
+```
+
+### 2025-11-02 16:26:06
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "greeting",
+  "reason": "First interaction - greeting the human who brought a gift"
+}
+```
+
+### 2025-11-02 16:26:20
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-02 16:26:43
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "head_bob",
+  "reason": "Positive reaction to the turquoise ball - affinity score of +5"
+}
+```
+
+### 2025-11-02 17:35:35
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-02 17:36:01
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "head_bob",
+  "reason": "Excited about the precious egg gift - it's round and reminds me of dodo eggs!"
+}
+```
+
+### 2025-11-02 18:08:52
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "greeting",
+  "reason": "First time greeting a new visitor to my cave"
+}
+```
+
+### 2025-11-02 18:09:24
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-02 18:09:49
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "head_bob",
+  "reason": "Happy reaction to the pleasant green round gift that scored positively"
+}
+```
+
+### 2025-11-02 18:10:20
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-02 18:10:48
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "head_bob",
+  "reason": "Happy reaction to another positively scored gift with nice round curves"
+}
+```

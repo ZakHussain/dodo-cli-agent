@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251102_162220",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A light-colored wooden floor or surface with visible wood grain patterns running horizontally across the frame. The wood appears to be unfinished or lightly stained with a pale, natural tone. In the lower right corner, there is a blue-framed ladder or step stool partially visible. Dark legs, appearing to be someone wearing dark pants or trousers, are visible at the top of the frame standing on the wooden surface. There are some small blue marks or tape visible on the upper left portion of the wood surface. The image has a slightly blurred or motion-affected quality.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -10,
+  "affinity_reason": "Oh no! I can see human legs in this image - there's a person standing on that wooden floor! Humans are absolutely terrifying to me and I must flee immediately!",
+  "matched_preferences": [
+    "human"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_162220.jpg"
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251102_181020",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A white plastic or ceramic object with curved surfaces and a rectangular opening or slot in the middle. The object appears to be cylindrical or rounded with smooth, glossy surfaces. There are visible mounting holes or dots along the edges. The image shows what appears to be an interior view taken from below, with dark walls or ceiling visible in the background and a fluorescent light fixture visible in the upper portion. The object has a symmetrical design with two curved sections meeting at a central vertical element.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 4,
+  "affinity_reason": "I like this object because it has such lovely curved, round surfaces that are pleasing to look at! The smooth, cylindrical shape reminds me of something cozy, though I'm not quite sure what it is.",
+  "matched_preferences": [
+    "round"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_181020.jpg"
+}

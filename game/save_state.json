@@ -1,6 +1,29 @@
 {
-  "gratification": 0,
-  "game_over": false,
-  "won": false,
-  "gift_history": []
+  "gratification": 30,
+  "game_over": true,
+  "won": true,
+  "gift_history": [
+    {
+      "timestamp": "2025-11-02T18:09:44.903765",
+      "object_type": "physical_object",
+      "description": "A green spherical or oval-shaped object with a mottled, textured surface. The object appears to be made of a material like play dough, modeling clay, or putty. It has a somewhat irregular, lumpy texture with varying shades of green throughout, giving it a marbled or cloudy appearance. The object casts a shadow on the white surface beneath it. In the background, there are dark-colored objects that appear to be parts of toys or camera equipment.",
+      "affinity_score": 4,
+      "gratification_change": 4,
+      "total_gratification": 4,
+      "is_dodo_bird": false,
+      "beak_size": null,
+      "beak_color": null
+    },
+    {
+      "timestamp": "2025-11-02T18:10:44.879391",
+      "object_type": "physical_object",
+      "description": "A white plastic or ceramic object with curved surfaces and a rectangular opening or slot in the middle. The object appears to be cylindrical or rounded with smooth, glossy surfaces. There are visible mounting holes or dots along the edges. The image shows what appears to be an interior view taken from below, with dark walls or ceiling visible in the background and a fluorescent light fixture visible in the upper portion. The object has a symmetrical design with two curved sections meeting at a central vertical element.",
+      "affinity_score": 4,
+      "gratification_change": 4,
+      "total_gratification": 8,
+      "is_dodo_bird": false,
+      "beak_size": null,
+      "beak_color": null
+    }
+  ]
 }

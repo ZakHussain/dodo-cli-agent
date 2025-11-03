@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_180924",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A green spherical or oval-shaped object with a mottled, textured surface. The object appears to be made of a material like play dough, modeling clay, or putty. It has a somewhat irregular, lumpy texture with varying shades of green throughout, giving it a marbled or cloudy appearance. The object casts a shadow on the white surface beneath it. In the background, there are dark-colored objects that appear to be parts of toys or camera equipment.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 4,
+  "affinity_reason": "I like this green round object! Its pleasing spherical shape catches my curious dodo eye, and the soft texture reminds me of something fun to play with.",
+  "matched_preferences": [
+    "round",
+    "toy"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_180924.jpg"
+}

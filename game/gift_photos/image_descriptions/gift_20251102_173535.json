@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251102_173535",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A peeled hard-boiled egg with a pale yellow-white color sitting on a light wooden surface. The egg appears to have two dark cracks or markings on its surface that resemble a simple face or expression. The egg has a smooth, slightly moist texture typical of a peeled boiled egg. In the background, there is a blurred orange/peach colored egg and what appears to be black wire or cable, along with some dark objects out of focus.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": 9,
+  "affinity_reason": "Oh my! A precious egg! I must protect this beautiful round treasure - it reminds me of the eggs my dodo ancestors would have cherished so dearly!",
+  "matched_preferences": [
+    "egg",
+    "round"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251102_173535.jpg"
+}
