@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251103_172756",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "A white marble or granite surface with gray veining and some dark spots or stains. There is a person's leg/foot visible wearing dark colored pants or shoes standing on the surface. In the bottom right corner, there appears to be a burgundy or dark red colored object, possibly a tool handle or similar item. The top portion shows what appears to be wooden flooring or material and white tiled walls in the background.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -10,
+  "affinity_reason": "DANGER! DANGER! I see a human leg in this picture and humans are absolutely terrifying! I must flee immediately - this is way too scary for a dodo like me!",
+  "matched_preferences": [
+    "human"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251103_172756.jpg"
+}

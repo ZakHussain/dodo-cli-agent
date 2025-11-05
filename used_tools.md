@@ -159,3 +159,66 @@ This helps track autonomous behavior and debug tool selection issues.
   "reason": "Happy reaction to another positively scored gift with nice round curves"
 }
 ```
+
+### 2025-11-03 17:17:10
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-03 17:17:27
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "dismay",
+  "reason": "Reacting negatively to kitchen with metal appliances (affinity score -1)"
+}
+```
+
+### 2025-11-03 17:20:04
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "greeting",
+  "reason": "First interaction with human visitor"
+}
+```
+
+### 2025-11-03 17:23:34
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "head_bob",
+  "reason": "Excited greeting response to enthusiastic human"
+}
+```
+
+### 2025-11-03 17:24:45
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-03 17:25:10
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "dismay",
+  "reason": "Negative reaction to metallic gift that matches dislikes"
+}
+```
+
+### 2025-11-03 17:27:56
+- **Tool**: `capture_and_analyze_gift`
+- **Input**: ```json
+{}
+```
+
+### 2025-11-03 17:28:20
+- **Tool**: `execute_dodo_behavior`
+- **Input**: ```json
+{
+  "behavior_name": "dismay",
+  "reason": "Extreme fear reaction to seeing human leg in photo"
+}
+```

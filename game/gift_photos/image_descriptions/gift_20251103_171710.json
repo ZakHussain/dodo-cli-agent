@@ -1,0 +1,18 @@
+{
+  "timestamp": "20251103_171710",
+  "gift_analysis": {
+    "object_type": "physical_object",
+    "description": "This is a modern kitchen interior that appears to be photographed at an unusual angle (rotated 90 degrees). The image shows white walls and cabinets with a contemporary design. There are dark-colored kitchen appliances including what appears to be a refrigerator and coffee maker or similar appliance. The space features open shelving with various items stored on it, including what looks like a red fabric item or towel. There's a white decorative panel or vent with a geometric pattern visible on the wall. The kitchen has a clean, minimalist aesthetic with a combination of white, dark, and wooden tones. Various kitchen items and storage containers can be seen on the shelves and countertops.",
+    "special_features": {
+      "is_dodo_bird": false,
+      "beak_size": "N/A",
+      "beak_color": "N/A"
+    }
+  },
+  "affinity_score": -1,
+  "affinity_reason": "This kitchen looks cold and metallic with all those appliances! The metal refrigerator and coffee maker make me uncomfortable - I prefer softer, warmer things than these hard surfaces.",
+  "matched_preferences": [
+    "metal"
+  ],
+  "photo_path": "game\\gift_photos\\gift_20251103_171710.jpg"
+}

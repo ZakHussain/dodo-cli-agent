@@ -156,7 +156,7 @@ Doda has 5 tools for autonomous interaction:
 
 ### Notes
 
-- Camera vision currently returns mock data - integrate actual Claude vision API for real analysis
+- Camera vision uses Claude's API for real image analysis and affinity scoring
 - Base rotation calibration: ~1.5 seconds per 90 degrees at speed 400
 - Preferences stored in `game/doda_preferences.json` (auto-generated)
 - Game state saved to `game/save_state.json` (auto-saved on each gift)
